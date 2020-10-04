@@ -1,0 +1,3 @@
+101,Ashraful,Gafur,Male,21,Mainul Emran,Tahera Khatun,bsse1021@iit.du.ac.bd,Chittagong
+102,Yusuf,Ahmed,Male,21,Iqbal Aziz,Rehene Khanom,bsse1013@iit.du.ac.bd,Dinajpur
+103,as,sa,qw,2,fae,wq,dq2@wdw,wafq
