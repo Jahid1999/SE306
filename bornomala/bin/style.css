@@ -1,0 +1,39 @@
+.startButton{
+	
+	-fx-background-color:  transparent ;
+	-fx-background-radius: 100;
+	
+}
+
+.startButton:hover{
+	
+	-fx-text-fill: black;
+	-fx-background-color:  yellow;
+	-fx-background-radius: 100;
+	
+}
+
+.startButton:pressed{
+	
+	-fx-text-fill: yellow;
+	-fx-background-color:  blue;
+	-fx-background-radius: 100;
+	
+}
+
+.another {
+	-fx-background-color:  #00faff ;
+	-fx-background-radius: 100;
+}
+
+.another:hover {
+	-fx-text-fill: black;
+	-fx-background-color:  yellow;
+	-fx-background-radius: 100;
+} 
+
+.another:pressed {
+	-fx-text-fill: yellow;
+	-fx-background-color:  blue;
+	-fx-background-radius: 100;
+} 

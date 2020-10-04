@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bornomala.ga">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true">
+         <image>
+            <Image url="@Screenshot_20181113-094934.png" />
+         </image>
+      </ImageView>
+      <Button layoutY="153.0" mnemonicParsing="false" onAction="#prev" prefHeight="119.0" prefWidth="80.0" styleClass="startButton" stylesheets="@../ProjectTest/style.css">
+         <graphic>
+            <ImageView fitHeight="108.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../ProjectTest/icon-28-512.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="513.0" layoutY="153.0" mnemonicParsing="false" onAction="#next" prefHeight="119.0" prefWidth="80.0" styleClass="startButton" stylesheets="@../ProjectTest/style.css">
+         <graphic>
+            <ImageView fitHeight="108.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../ProjectTest/nextIcon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#home" prefHeight="50.0" prefWidth="52.0" styleClass="startButton" stylesheets="@../ProjectTest/style.css">
+         <graphic>
+            <ImageView fitHeight="52.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../ProjectTest/06_menu_bullet_unjustified-2-512.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>
